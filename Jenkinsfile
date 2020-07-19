@@ -1,5 +1,10 @@
 pipeline {
     agent any
+    stage('Nimit Goel') {
+                steps {
+                    echo 'Changes refelected'
+                }
+            }
     stages {
         stage('Static Analysis') {
             steps {
