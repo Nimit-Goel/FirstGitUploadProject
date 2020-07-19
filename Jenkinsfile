@@ -2,7 +2,7 @@ pipeline {
     agent any
     stage('Nimit Goel') {
                 steps {
-                    echo 'Changes refelected'
+                    echo 'Changes refelected!!'
                 }
             }
     stages {
