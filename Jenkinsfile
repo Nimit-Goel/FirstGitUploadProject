@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    stage('Nimit Goel') {
+    stage('Build') {
                 steps {
                     echo 'Changes refelected!!'
                 }
