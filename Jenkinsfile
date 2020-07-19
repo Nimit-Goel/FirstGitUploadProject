@@ -1,11 +1,13 @@
 pipeline {
     agent any
-    stage('Build') {
-                steps {
-                    echo 'Changes refelected!!'
-                }
-            }
+
     stages {
+
+        stage('Build') {
+                        steps {
+                            echo 'Changes refelected!!'
+                        }
+                    }
         stage('Static Analysis') {
             steps {
                 echo 'Run the static analysis to the code'
